@@ -14,7 +14,7 @@ on:
 
         required: false
 
-        default: '6_Giờ_(360m)'
+        default: '1_Giờ_30_Phút_(90m)'
 
         type: choice
 
@@ -108,7 +108,7 @@ jobs:
 
       # TẠO USER PREMIUM - (tối ưu mật khẩu)
 
-      - name: 👤 nullaMC
+      - name: 👤 TẠO TÀI KHOẢN PREMIUM
 
         run: |
 
@@ -128,7 +128,7 @@ jobs:
 
               $lower = 'abcdefghijkmnpqrstuvwxyz'
 
-              $numbers = "phong@123'               # loại 0,1 để tránh nhầm
+              $numbers = '23456789'               # loại 0,1 để tránh nhầm
 
               $all = $upper + $lower + $numbers
 
